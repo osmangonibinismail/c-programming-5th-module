@@ -125,43 +125,323 @@
 
 //     return 0;
 // }
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main()
+// {
+
+//     if(1)
+//     {
+//         printf("You have got A+ grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got A grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got A- grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got B grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got C grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got D grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("You have got D grade\n");
+//     }
+//     else if(1)
+//     {
+//         printf("invalid number\n");
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int marks;
+
+//     scanf("%d", &marks);
+
+//     if(marks >= 80 && marks <= 100)
+//     {
+//         printf("You have got A+ grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 70 && marks <= 79)
+//     {
+//         printf("You have got A grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 60 && marks <= 69)
+//     {
+//         printf("You have got A- grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 50 && marks <= 59)
+//     {
+//         printf("You have got B grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 40 && marks <= 49)
+//     {
+//         printf("You have got C grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 33 && marks <= 39)
+//     {
+//         printf("You have got D grade\n");
+//         printf("You have passed");
+//     }
+//     else if(marks >= 0 && marks <= 32)
+//     {
+//         printf("You have got F grade\n");
+//         printf("You have failed. try again please.");
+//     }
+//     else
+//     {
+//         printf("invalid number\n");
+//     }
+
+//     return 0;
+// }
+// #include <stdio.h>
+
+// int main()
+// {
+//     int marks;
+
+//     scanf("%d", &marks);
+
+//     if (marks >= 33 && marks <= 100)
+//     {
+//         printf("you have got passed\n");
+
+
+//         if (marks >= 80 && marks <= 100)
+//         {
+//             printf("You have got A+ grade\n");
+//         }
+//         else if (marks >= 70 && marks <= 79)
+//         {
+//             printf("You have got A grade\n");
+//         }
+//         else if (marks >= 60 && marks <= 69)
+//         {
+//             printf("You have got A- grade\n");
+//         }
+//         else if (marks >= 50 && marks <= 59)
+//         {
+//             printf("You have got B grade\n");
+//         }
+//         else if (marks >= 40 && marks <= 49)
+//         {
+//             printf("You have got C grade\n");
+//         }
+//         else if (marks >= 33 && marks <= 39)
+//         {
+//             printf("You have got D grade\n");
+//         }
+//     }
+//     else if (marks >= 0 && marks <= 32)
+//     {
+//         printf("You have got F grade\n");
+//         printf("You have failed. try again please.");
+//     }
+
+//     else
+//     {
+//         printf("invalid number\n");
+//     }
+
+//     return 0;
+// }
+
+
+// #include <stdio.h>
+// int main()
+// {
+//     int marks;
+
+//     scanf("%d", &marks);
+
+//     if (marks >= 33 && marks <= 100)
+//     {
+//         printf("you have got passed\n");
+
+
+//         if (marks >= 80 && marks <= 100)
+//         {
+//             printf("You have got A+ grade\n");
+
+//             if(marks >= 90)
+//             {
+//                 printf("Congratulations!! You have got scholarship\n");
+//             }
+//         }
+//         else if (marks >= 70 && marks <= 79)
+//         {
+//             printf("You have got A grade\n");
+//         }
+//         else if (marks >= 60 && marks <= 69)
+//         {
+//             printf("You have got A- grade\n");
+//         }
+//         else if (marks >= 50 && marks <= 59)
+//         {
+//             printf("You have got B grade\n");
+//         }
+//         else if (marks >= 40 && marks <= 49)
+//         {
+//             printf("You have got C grade\n");
+//         }
+//         else if (marks >= 33 && marks <= 39)
+//         {
+//             printf("You have got D grade\n");
+//         }
+//     }
+//     else if (marks >= 0 && marks <= 32)
+//     {
+//         printf("You have got F grade\n");
+//         printf("You have failed. try again please.");
+//     }
+
+//     else
+//     {
+//         printf("invalid number\n");
+//     }
+
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+//     int marks;
+
+//     scanf("%d", &marks);
+
+//     if (marks >= 33 && marks <= 100)
+//     {
+//         printf("you have got passed\n");
+
+
+//         if (marks >= 80 && marks <= 100)
+//         {
+//             printf("You have got A+ grade\n");
+
+//             if(marks >= 90)
+//             {
+//                 printf("Congratulations!! You have got Golden scholarship\n");
+//             }
+//             else if(marks >= 80 && marks <= 89)
+//             {
+//                 printf("Congratulations!! You have got silver scholarship\n");
+//             }
+//         }
+//         else if (marks >= 70 && marks <= 79)
+//         {
+//             printf("You have got A grade\n");
+//             if(marks >= 70)
+//             {
+//                 printf("Congratulations!! You have got general scholarship\n");
+//             }
+//         }
+//         else if (marks >= 60 && marks <= 69)
+//         {
+//             printf("You have got A- grade\n");
+//         }
+//         else if (marks >= 50 && marks <= 59)
+//         {
+//             printf("You have got B grade\n");
+//         }
+//         else if (marks >= 40 && marks <= 49)
+//         {
+//             printf("You have got C grade\n");
+//         }
+//         else if (marks >= 33 && marks <= 39)
+//         {
+//             printf("You have got D grade\n");
+//         }
+//     }
+//     else if (marks >= 0 && marks <= 32)
+//     {
+//         printf("You have got F grade\n");
+//         printf("You have failed. try again please.");
+//     }
+
+//     else
+//     {
+//         printf("invalid number\n");
+//     }
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     char ch;
+
+//     scanf("%c", &ch);
+
+//     if(ch >= '0' && ch <= '9'){
+//         printf("IS DIGIT\n");
+//     }
+//     else{
+//         printf("ALPHA\n");
+        
+//         if(ch >= 'A' && ch <= 'Z')
+//         {
+//             printf("IS CAPITAL\n");
+//         }
+//         else
+//         {
+//             printf("IS SMALL\n");
+//         }
+//     }
+//     return 0;
+// }
+
+
+#include<stdio.h>
 int main()
 {
+    int n;
 
-    if(1)
-    {
-        printf("You have got A+ grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got A grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got A- grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got B grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got C grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got D grade\n");
-    }
-    else if(1)
-    {
-        printf("You have got D grade\n");
-    }
-    else if(1)
-    {
-        printf("invalid number\n");
-    }
+    scanf("%d", &n);
 
-    return 0;
+    if(n % 2 == 0)
+    {
+        printf("Even Number\n");
+
+        if(n < 0)
+        {
+            printf("Negative Number\n");
+        }
+        else{
+            printf("Positive Number\n");
+        }
+    }
+    else{
+        printf("Odd Number\n");
+
+        if(n < 0)
+        {
+            printf("Negative Number\n");
+        }
+        else{
+            printf("Positive Number\n");
+        }
+    }
 }
