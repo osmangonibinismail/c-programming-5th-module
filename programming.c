@@ -228,7 +228,6 @@
 //     {
 //         printf("you have got passed\n");
 
-
 //         if (marks >= 80 && marks <= 100)
 //         {
 //             printf("You have got A+ grade\n");
@@ -268,7 +267,6 @@
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 // int main()
 // {
@@ -279,7 +277,6 @@
 //     if (marks >= 33 && marks <= 100)
 //     {
 //         printf("you have got passed\n");
-
 
 //         if (marks >= 80 && marks <= 100)
 //         {
@@ -334,7 +331,6 @@
 //     if (marks >= 33 && marks <= 100)
 //     {
 //         printf("you have got passed\n");
-
 
 //         if (marks >= 80 && marks <= 100)
 //         {
@@ -400,7 +396,7 @@
 //     }
 //     else{
 //         printf("ALPHA\n");
-        
+
 //         if(ch >= 'A' && ch <= 'Z')
 //         {
 //             printf("IS CAPITAL\n");
@@ -413,35 +409,164 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
 
+//     scanf("%d", &n);
+
+//     if(n % 2 == 0)
+//     {
+//         printf("Even Number\n");
+
+//         if(n < 0)
+//         {
+//             printf("Negative Number\n");
+//         }
+//         else{
+//             printf("Positive Number\n");
+//         }
+//     }
+//     else{
+//         printf("Odd Number\n");
+
+//         if(n < 0)
+//         {
+//             printf("Negative Number\n");
+//         }
+//         else{
+//             printf("Positive Number\n");
+//         }
+//     }
+// }
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
+
+//     scanf("%d", &n);
+
+//     if (n % 2 == 0)
+//     {
+//         printf("Even Number\n");
+//     }
+//     else
+//     {
+//         printf("Odd Number\n");
+//     }
+//     if (n < 0)
+//     {
+//         printf("Negative Number\n");
+//     }
+//     else if (n > 0)
+//     {
+//         printf("Positive Number\n");
+//     }
+// }
+
+// code force problem -02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a, b, c;
+
+//     scanf("%d %d %d", &a, &b, &c);
+
+//     if(a <= b)
+//     {
+//         //a, c
+//         if(a <= c)
+//         {
+//             printf("%d", a);
+//         }
+//         else{
+//             printf("%d", c);
+//         }
+//     }
+//     else{
+//         //b, c
+//         if(b <= c)
+//         {
+//             printf("%d", b);
+//         }
+//         else{
+//             printf("%d", c);
+//         }
+//     }
+
+//     printf(" ");
+
+//     if(a >= b && a >= c)
+//     {
+//         printf("%d", a);
+//     }
+//     else if(b >= a && b >= c)
+//     {
+//         printf("%d", b);
+//     }
+//     else
+//     {
+//         printf("%d", c);
+//     }
+// }
 #include<stdio.h>
 int main()
 {
-    int n;
+    int a, b, c, d;
 
-    scanf("%d", &n);
+    scanf("%d %d %d %d", &a, &b, &c, &d);
 
-    if(n % 2 == 0)
+    if(a <= b)
     {
-        printf("Even Number\n");
-
-        if(n < 0)
+        //a, c
+        if(a <= c)
         {
-            printf("Negative Number\n");
+            printf("%d", a);
         }
         else{
-            printf("Positive Number\n");
+            printf("%d", c);
+        }
+    }
+    else if(b <= c)
+    {
+        //b, c
+        if(b <= c)
+        {
+            printf("%d", b);
+        }
+        else{
+            printf("%d", c);
         }
     }
     else{
-        printf("Odd Number\n");
-
-        if(n < 0)
+        //c, d
+        if(c <= d)
         {
-            printf("Negative Number\n");
+            printf("%d", c);
         }
         else{
-            printf("Positive Number\n");
+            printf("%d", d);
         }
+    }
+
+    printf(" ");
+
+    if(a >= c && a >= d)
+    {
+        printf("%d", a);
+    }
+    else if(b >= b && b >= d)
+    {
+        printf("%d", b);
+    }
+    else if(c >= a && c >= d)
+    {
+        printf("%d", c);
+    }
+    else
+    {
+        printf("%d", d);
     }
 }

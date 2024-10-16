@@ -1,2 +1,1 @@
-Odd Number
-Negative Number
+10 895
